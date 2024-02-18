@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="549.0" style="-fx-background-radius: 50;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.component">
+   <children>
+      <Label fx:id="userTXF" layoutX="31.0" layoutY="34.0" prefHeight="17.0" prefWidth="107.0" style="-fx-text-fill: white;" text="username" />
+      <Label fx:id="kartnumbTXF" layoutX="163.0" layoutY="34.0" prefHeight="17.0" prefWidth="54.0" style="-fx-text-fill: white; -fx-background-color: black;" text="kartnumb" textFill="#cd2020" />
+      <Label fx:id="mablaghTXF" layoutX="281.0" layoutY="34.0" prefHeight="17.0" prefWidth="61.0" style="-fx-text-fill: white;" text="mablagh" textFill="WHITE" />
+      <Button fx:id="okbtn" layoutX="379.0" layoutY="28.0" mnemonicParsing="false" onAction="#sayok" text="Ok" />
+      <Button layoutX="458.0" layoutY="28.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
